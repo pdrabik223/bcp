@@ -140,6 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="basic_canvas_processing.cpp" />
+    <ClCompile Include="canvas.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="shape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="canvas.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="shape.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
