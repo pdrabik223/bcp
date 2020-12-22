@@ -14,7 +14,7 @@ public:
 class shape
 {
 public:
-	shape()=delete;
+	shape();
 
 
 protected:
